@@ -423,6 +423,7 @@
 	</Menus>
 	<Keymaps>
 		<Main>
+			<item Command="switch_cpp_hpp" Keycode="(A)O" Allocated="1" />
 			<item
 				Command="AddFuncHeaderAutoGenerate"
 				Keycode="(A)4"
@@ -483,7 +484,6 @@
 			<item Command="Activate Project Menu" Keycode="(A)P" />
 			<item Command="Activate Window Menu" Keycode="(A)W" />
 			<item Command="Activate Help Menu" Keycode="(A)H" />
-			<item Command="Activate Options Menu" Keycode="(A)O" />
 			<item Command="Activate View Menu" Keycode="(A)V" />
 			<item Command="Activate System Doc Menu" Keycode="(A)-" />
 			<item Command="Activate System Menu" Keycode="(A)Space" />
@@ -2043,7 +2043,7 @@
 		<Style Name="Debug" TextColor="#ff0000" Italic="1" Underline="Dotted" />
 		<Style Name="Null Value" TextColor="#7f007f" />
 		<Style Name="System" TextColor="#008000" />
-		<Style Name="Declaration" Bold="1" TextColor="#000080" />
+		<Style Name="Declaration" TextColor="#000080" />
 		<Style
 			Name="Ref To Local"
 			TextColor="#008080"
@@ -2160,7 +2160,11 @@
 			TextColor="#800080"
 			ParentStyle="Reference"
 			/>
-		<Style Name="Ref to Const" ParentStyle="Reference" />
+		<Style
+			Name="Ref to Const"
+			TextColor="#7f007f"
+			ParentStyle="Reference"
+			/>
 		<Style Name="Ref to Enum" ParentStyle="Reference" />
 		<Style Name="Ref to Custom" ParentStyle="Reference" />
 		<Style Name="Ref to EdMacro" ParentStyle="Reference" />
@@ -7741,7 +7745,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="284"
+		Width="314"
 		TextColor="#202020"
 		BackColor="#f3f3f3"
 		ShowChanges="1"
@@ -8012,9 +8016,9 @@
 			/>
 		<ListDisplay
 			TextColor="#000000"
-			BackColor="#ffffff"
+			BackColor="#ccd3c7"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Segoe UI" psize="9" fpfamily="0" charset="1" />
 		</ListDisplay>
 	</BookmarkWindow>
 	<SnippetWindow>
@@ -8349,7 +8353,7 @@
 				ShowMetrics="1"
 				ShowGraphDetails="1"
 				GroupMultipleRefs="1"
-				ShowLineNumbers="1"
+				ShowLineNumbers="0"
 				ShowFileName="1"
 				AutoExpandLevels="4"
 				CodeMetricsType="1"
