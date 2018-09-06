@@ -423,6 +423,14 @@
 	</Menus>
 	<Keymaps>
 		<Main>
+			<item Command="AddVarUp" Keycode="(A)1" Allocated="1" />
+			<item Command="AddVarRight" Keycode="(A)2" Allocated="1" />
+			<item Command="AddStructDemo" Keycode="(A)6" Allocated="1" />
+			<item Command="AddFuncHeader" Keycode="(A)3" Allocated="1" />
+			<item Command="AddFileHeader" Keycode="(A)9" Allocated="1" />
+			<item Command="AddEnumDemo" Keycode="(A)8" Allocated="1" />
+			<item Command="AddStruct" Keycode="(A)5" Allocated="1" />
+			<item Command="AddEnum" Keycode="(A)7" Allocated="1" />
 			<item Command="switch_cpp_hpp" Keycode="(A)O" Allocated="1" />
 			<item
 				Command="AddFuncHeaderAutoGenerate"
@@ -7745,7 +7753,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="314"
+		Width="310"
 		TextColor="#202020"
 		BackColor="#f3f3f3"
 		ShowChanges="1"
