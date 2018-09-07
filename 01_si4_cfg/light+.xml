@@ -99,10 +99,10 @@
 			TextColor="#000000"
 			/>
 		<DefaultPanelFontAndColor
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</DefaultPanelFontAndColor>
 	</DisplayPreferences>
 	<EditingPreferences
@@ -175,10 +175,10 @@
 		<Item Name="ChangeMarks" Color="#ffff00" />
 		<Item Name="SavedChangeMarks" Color="#bdddba" />
 		<Item Name="CurrentLineIndicator" Color="#e6e6e6" />
-		<Item Name="EndofFile" Color="#c0c0c0" />
+		<Item Name="EndofFile" Color="#f3f3f3" />
 		<Item Name="ApplicationBackground" Color="#ababab" />
-		<Item Name="FrameText" Color="#000000" />
-		<Item Name="FrameBackground" Color="#dbe2ea" />
+		<Item Name="FrameText" Color="#202020" />
+		<Item Name="FrameBackground" Color="#f3f3f3" />
 	</DisplayColors>
 	<FilePreferences
 		ShareFiles="1"
@@ -1114,7 +1114,7 @@
 			ShowRefHighlights="1"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="0"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
 			AutoIndentMode="2"
@@ -7669,7 +7669,7 @@
 					Name="Symbols"
 					Width="117"
 					Ordinal="5"
-					IsVisible="0"
+					IsVisible="1"
 					NewRow="0"
 					/>
 				<Toolbar
@@ -7753,7 +7753,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="310"
+		Width="262"
 		TextColor="#202020"
 		BackColor="#f3f3f3"
 		ShowChanges="1"
@@ -7786,7 +7786,7 @@
 	</ParseConditions>
 	<SourceFormatter>
 		<SourceFormatPresets
-			CurrentName="Standard"
+			CurrentName="ANSI"
 			>
 			<PresetList>
 				<Preset
@@ -8023,10 +8023,10 @@
 			ConfirmDelete="0"
 			/>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ccd3c7"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="Segoe UI" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</BookmarkWindow>
 	<SnippetWindow>
@@ -8042,10 +8042,10 @@
 			SortBy="Name"
 			>
 			<ListDisplay
-				TextColor="#000000"
-				BackColor="#ffffff"
+				TextColor="#202020"
+				BackColor="#f3f3f3"
 				>
-				<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+				<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 			</ListDisplay>
 		</SnippetWindowOptions>
 	</SnippetWindow>
@@ -8058,10 +8058,10 @@
 		ExpandSnippetVars="1"
 		>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffc8"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ClipWindow>
 	<ContextWindow
@@ -8074,7 +8074,7 @@
 		BackColor="#ffffff"
 		>
 		<ListDisplay
-			TextColor="#000000"
+			TextColor="#202020"
 			BackColor="#f3f3f3"
 			>
 			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
@@ -8092,10 +8092,10 @@
 		FileCompareMethod="CompareSizeAndDate"
 		>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</DirectoryCompareWindow>
 	<FileCompareWindow
@@ -8113,10 +8113,10 @@
 		AllowEdits="0"
 		>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</FileCompareWindow>
 	<ProjectFileWindow
@@ -8144,10 +8144,10 @@
 		>
 		<Sort SortType="6" Invert="0" />
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectFileTypeWindow>
 	<ProjectFolderWindow
@@ -8302,10 +8302,10 @@
 		</SymbolTypes>
 		<Sort SortType="6" Invert="0" />
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectSymbolTypeWindow>
 	<WindowListWindow
@@ -8314,10 +8314,10 @@
 		ShowSymbol="1"
 		>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</WindowListWindow>
 	<RelationWindow>
@@ -8326,9 +8326,9 @@
 			>
 			<ListOptions
 				TextColor="#202020"
-				BackColor="#ffffff"
+				BackColor="#f3f3f3"
 				>
-				<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+				<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 			</ListOptions>
 			<GraphOptions
 				LayoutStyle="1"
@@ -8452,10 +8452,10 @@
 			<item wildcard="*.xml" />
 		</AsciiModeFiles>
 		<ListDisplay
-			TextColor="#000000"
-			BackColor="#ffffff"
+			TextColor="#202020"
+			BackColor="#f3f3f3"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="Monaco" psize="9" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</FTPWindow>
 </SourceInsightConfiguration>
